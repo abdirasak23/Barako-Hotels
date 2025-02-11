@@ -1,0 +1,723 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: 'Poppins';
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #dedbd1;
+}
+
+header{
+    height: 100px;
+    width: 100%px;
+    /* background-color: green; */
+}
+
+.Logo{
+    position: absolute;
+    top: 50px;
+    left: 60px;
+    /* background-color: blue;  */
+    height: 30px;
+}
+
+.Logo h2{
+    font-size: 30px;
+    font-weight: 500;
+    color: #1C1C1C;
+}
+
+.Logo span{
+    font-weight: bold;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    position: absolute;
+    left: 350px;
+    top: 55px;
+    font-size: 25px;
+    
+}
+
+ul a{
+    text-decoration: none;
+    color: #1C1C1C;
+}
+
+ul a:hover{
+  color: rgb(104, 104, 3);
+}
+
+.book{
+    height: 50px;
+    width: 120px;
+    background-color: #FFB606;
+    position: absolute;
+    right: 60px;
+    top: 50px;
+    justify-content: center;
+    border: none;
+    font-size: 18px;
+    border-radius: 10px;
+    font-weight: 500;
+    color: #1C1C1C;
+    cursor: pointer;
+}
+
+
+.book:hover{
+  background-color: transparent;
+  border: 2px solid #FFB606;
+}
+.main{
+    height: 250px;
+    width: 1155px;
+    background-color: green;
+    position: absolute;
+    top: 120px;
+    left: 60px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.main img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.content{
+    height: 150px;
+    width: 700px;
+    /* background-color: #FFB606; */
+    position: absolute;
+    left: 300px;
+    justify-items: center;
+    top: 150px;
+    color: white;
+}
+
+.stay{
+    font-weight: 500;
+    font-size: 30px;
+    position: relative;
+    top: 20px;
+}
+
+.content h2{
+    font-size: 60px;
+    color: #FFB606;
+    text-shadow: 0px 3px 10px black;
+}
+
+.come{
+    font-weight: 500;
+    font-size: 30px;
+    position: relative;
+    bottom: 20px;
+}
+
+.check{
+    height: 80px;
+    width: 900px;
+    background-color: rgb(255, 253, 253);
+    position: relative;
+    top: 240px;
+    left: 180px;
+    border-radius: 30px;
+    border: none;
+}
+
+.check .contents{
+    height: 60px;
+    width: 820px;
+    background-color: transparent;
+    position: relative;
+    left: 40px;
+    top: 10px;
+    display: flex;
+}
+
+.check .contents h4{
+    font-weight: 600;
+    position: relative;
+    left: 20px;
+    font-size: 18px;
+}
+
+.in{
+    background-color: transparent;
+    border: none;
+}
+
+.datepicker{
+    height: 25px;
+    width: 130px;
+    position: relative;
+    left: 5px;
+    background-color: transparent;
+}
+
+.guestpicker{
+    height: 25px;
+    width: 130px;
+    position: relative;
+    left: px;
+    background-color: transparent;
+    justify-items: center;
+}
+
+.checkin{
+    /* background-color: blue; */
+    width: 150px;
+    position: relative;
+}
+
+.guest{
+    /* background-color: blue; */
+    width: 150px;
+    position: relative;
+    right: 50px;
+}
+
+/* checkout */
+.checkout{
+    /* background-color: blue; */
+    width: 150px;
+    position: relative;
+    left: 40px;
+}
+
+/* guest */
+.guest{
+    /* background-color: blue; */
+    width: 150px;
+    position: relative;
+    left: 60px;
+}
+
+.rooms{
+    /* background-color: blue; */
+    width: 150px;
+    position: relative;
+    left: 60px;
+}
+
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: transparent; 
+    /* color: white; */
+    /* padding: 16px; */
+    font-size: 16px;
+    border: none;
+    position: relative;
+    left: 20px;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+
+  .circle{
+    height: 60px;
+    width: 60px;
+    background-color: #3e8e41;
+    position: relative;
+    left: 170px;
+    border-radius: 100%;
+    justify-items: center;
+    justify-content: center;
+    background-color: #FFB606;
+  }
+
+  .circle i{
+    font-size: 50px;
+    position: relative;
+    top: 4px;
+    left: 4px;
+    color: rgb(30, 24, 1);
+  }
+
+  .line{
+    height: 60px;
+    background-color: black;
+    width: 2px;
+    position: relative;
+    left: 50px;
+
+  }
+
+  .line1{
+    height: 60px;
+    background-color: black;
+    width: 2px;
+    position: relative;
+    left: 20px;
+    
+  }
+
+  .ourrooms{
+    position: absolute;
+    /* background-color: #a33f3f; */
+    /* left: 60px; */
+    top: 450px;
+    width: 100%;
+    height: 450px;
+    justify-items: center;
+    font-size: 30px;
+  }
+
+  
+  .onebedroom {
+    background-color: #3e8e41;
+    height: 330px;
+    width: 540px;
+    position: relative;
+    left: 60px; /* Final position */
+    top: 80px;
+    border-radius: 20px;
+    overflow: hidden;
+    
+    opacity: 0; /* Initially hidden */
+    transform: translateX(-100px); /* Start off-screen (left) */
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+/* Add animation when the element is visible */
+.onebedroom.active {
+    opacity: 1;
+    transform: translateX(0); /* Move back to original position */
+}
+
+
+
+
+  .onebedroom img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .twobedroom img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .twobedroom{
+    background-color: #3e8e41;
+    height: 330px;
+    width: 540px;
+    position: relative;
+    left: 120px;
+    top: 80px;
+    border-radius: 20px;
+    overflow: hidden;
+    opacity: 0; /* Initially hidden */
+    transform: translateX(100px); /* Start off-screen (left) */
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+  }
+
+  .twobedroom.active {
+    opacity: 1;
+    transform: translateX(0); /* Move back to original position */
+}
+
+  .ourrooms {
+    display: flex;
+  }
+  .main-rooms{
+    justify-content: center;
+  }
+  .main-rooms h4{
+    position: relative;
+    /* top: 600px; */
+    color: black;
+    top: 285px;
+    display: flex;
+    z-index: 2;
+    /* left: 440px; */
+    font-size: 24px;
+    justify-content: center;
+  }
+
+  .ourservices{
+    position: absolute;
+    /* background-color: #a33f3f; */
+    /* left: 60px; */
+    top: 870px;
+    width: 100%;
+    height: 450px;
+    justify-items: center;
+    font-size: 30px;
+  }
+
+  .mom-cont{
+    /* background-color: green; */
+    height: 350px;
+    width: 1150px;
+    display: flex;
+  }
+
+  .first{
+    height: 300px;
+    width: 250px;
+    background-color: white;
+    position: relative;
+    left: 20px;
+    top: 20px;
+    border-radius: 20px;
+    overflow: hidden;
+    opacity: 0; /* Initially hidden */
+    transform: translateY(20px); /* Start slightly lower */
+    transition: opacity 0.5s ease-out, transform 0.5s ease-out; /* Smooth effect */
+  }
+
+  .first.active {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+  
+  .culus{
+    /* background-color: rgb(8, 223, 198); */
+    height: 350px;
+    width: 250px;
+    position: relative;
+    left: 40px;
+    display: block;
+  }
+
+  .second {
+    background-color: white;
+    height: 160px;
+    width: 250px;
+    position: relative;
+    top: 20px; /* Initial position */
+    left: 0px;
+    border-radius: 20px;
+    overflow: hidden;
+    opacity: 0; /* Initially hidden */
+    transform: translateY(20px); /* Start slightly lower */
+    transition: opacity 0.5s ease-out, transform 0.5s ease-out; /* Smooth effect */
+}
+
+/* This class will be added when the element is in view */
+.second.active {
+    opacity: 1;
+    transform: translateY(0);
+}
+.third.active {
+    opacity: 1;
+    transform: translateY(0);
+}
+.second2.active {
+    opacity: 1;
+    transform: translateY(0);
+}
+.third2.active {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+  .third{
+    background-color: rgb(114, 2, 2);
+    height: 120px;
+    width: 250px;
+    top: 40px;
+    position: relative;
+    border-radius: 20px;
+    overflow: hidden;
+    opacity: 0; /* Initially hidden */
+    transform: translateY(20px); /* Start slightly lower */
+    transition: opacity 0.5s ease-out, transform 0.5s ease-out; /* Smooth effect */
+  }
+
+  .culus2{
+    /* background-color: rgb(8, 223, 198); */
+    height: 350px;
+    width: 250px;
+    position: relative;
+    left: 90px;
+    display: block;
+  }
+
+  .second2{
+    background-color: white;
+    height: 160px;
+    width: 250px;
+    position: relative;
+    top: 20px;
+    left: 0px;
+    border-radius: 20px;
+    overflow: hidden;
+    opacity: 0; /* Initially hidden */
+    transform: translateY(20px); /* Start slightly lower */
+    transition: opacity 0.5s ease-out, transform 0.5s ease-out; /* Smooth effect */
+  }
+
+  .third2{
+    /* background-color: rgb(114, 2, 2); */
+    height: 120px;
+    width: 250px;
+    top: 40px;
+    position: relative;
+    border-radius: 20px;
+    overflow: hidden;
+    opacity: 0; /* Initially hidden */
+    transform: translateY(20px); /* Start slightly lower */
+    transition: opacity 0.5s ease-out, transform 0.5s ease-out; /* Smooth effect */
+  }
+
+
+.forth{
+    height: 300px;
+    width: 280px;
+    background-color: white;
+    position: relative;
+    left: 60px;
+    top: 20px;
+    border-radius: 20px;
+    overflow: hidden;
+    opacity: 0; /* Initially hidden */
+    transform: translateY(20px); /* Start slightly lower */
+    transition: opacity 0.5s ease-out, transform 0.5s ease-out; /* Smooth effect */
+  }
+  
+  
+
+  .forth.active {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+  .first img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .second img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .third img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .second2 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .third2 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .dining{
+    height: 35px;
+    width: 160px;
+    background-color: rgba(235, 233, 233, 0.434);
+    position: absolute;
+    bottom: 15px;
+    left: 10px;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .dining h5{
+    font-size:  18px;
+    padding: 5px;
+    font-weight: 500;
+    color: #3a2901;
+  }
+
+  .aboutus{
+    height: 400px;
+    width: 100%;
+    /* background-color: red; */
+    position: absolute;
+    top: 1260px;
+    display: flex;
+  }
+
+  .lounge{
+    background-color: white;
+    height: 350px;
+    width: 540px;
+    position: relative;
+    top: 20px;
+    left: 60px;
+    border-radius: 20px;
+    overflow: hidden;
+  }
+
+  .lounge img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .heading{
+    height: 400px;
+    width: 550px;
+    /* background-color: rgb(4, 110, 32); */
+    position: relative;
+    left: 90px;
+    display: block;
+  }
+
+  .head{
+    height: 90px;
+    width: 300px;
+    /* background-color: white; */
+    left: 20px;
+    position: relative;
+  }
+
+  .head h2{
+    position: relative;
+    top: 10px;
+    font-size: 40px;
+    color: green;
+  }
+  .head h4{
+    position: relative;
+    left: 35px;
+    bottom: 10px;
+    font-weight: 300;
+    color: green;
+  }
+
+  .wire1{
+    height: 5px;
+    width: 30px;
+    background-color: green;
+    position: relative;
+    top: 5px;
+  }
+
+  .wire2{
+    height: 5px;
+    width: 30px;
+    background-color:green;
+    position: absolute;
+    top: 65px;
+    right: 25px;
+  }
+
+  .text{
+    height: 280px;
+    width: 520px;
+    /* background-color: white; */
+    position: relative;
+    top: 0px;
+    left: 20px;
+  }
+
+  .text p{
+    font-size: 20px;
+    font-weight: 400;
+  }
+
+  .contactus{
+    height: 150px;
+    width: 100%;
+    background-color: rgb(19, 82, 0);
+    position: absolute;
+    top: 1660px;
+    justify-content: center;
+    display: block;
+    align-items: center;
+  }
+
+  .contactus h2{
+    text-align: center;
+    position: relative;
+    top: 10px;
+    color: white;
+  }
+
+  .social{
+    height: 60px;
+    width: 300px;
+    /* background-color: white; */
+    position: relative;
+    left: 480px;
+    top: 10px;
+    display: flex;
+    gap: 20px;
+  }
+
+  .facebook{
+    height: 40px;
+    width: 40px;
+    background-color: white;
+    border-radius: 100%;
+    position: relative;
+    top: 3px;
+    justify-items: center;
+  }
+
+  .facebook i{
+    font-size: 34px;
+    text-align: center;
+    position: relative;
+    color: green;
+    left: 3px;
+    top: 2px;
+  }
+
+  .facebook:hover{
+    background-color: rgb(90, 147, 90);
+  }
+
+  .facebook i:hover{
+    color: rgb(202, 240, 202);
+  }
